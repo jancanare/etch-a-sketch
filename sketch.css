@@ -1,0 +1,21 @@
+#container {
+  width: 640px;       /* make it a square */
+  height: 640px;
+  display: flex;
+  flex-wrap: wrap;    /* allows items to wrap to next rows */
+}
+
+.cell {
+   width: calc(100% / 16);
+  height: calc(100% / 16);
+  box-sizing: border-box;   /* important! */
+  border: 1px solid #ccc;   /* optional */
+}
+
+body {
+  margin: 0;
+  height: 100vh;               /* full screen height */
+  display: flex;
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+}
