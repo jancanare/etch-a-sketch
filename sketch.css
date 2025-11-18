@@ -34,3 +34,10 @@ body {
   transform: translateX(-50%);
    z-index: 1000;
 }
+.newCell {
+
+  box-sizing: border-box;   /* important! */
+  border: 1px solid #ccc;   /* optional */
+  aspect-ratio: 1 / 1;
+}
+
