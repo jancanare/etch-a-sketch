@@ -21,11 +21,6 @@ body {
   align-items: center;         /* center vertically */
 }
 
-.cell.highlight {
-   background-color: dodgerblue;
-  color: white;
-  transform: scale(1.05);
-}
 
 #button {
   position: fixed;
